@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment variables
+.env
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+
+# Django static and media
+staticfiles/
+media/
+
+# SQLite (if you use it locally)
+*.sqlite3
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VSCode and IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Migrations (optional if you want to generate them fresh)
+*/migrations/*.pyc
+*/migrations/__pycache__/
