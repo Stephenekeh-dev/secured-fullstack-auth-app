@@ -4,8 +4,8 @@ services:
     env: docker
     repo: https://github.com/Stephenekeh-dev/secured-fullstack-auth-app
     branch: main
-    buildCommand: ""  # Let Dockerfile handle build
-    startCommand: ""  # Let CMD in Dockerfile handle start
+    buildCommand: ""    # Let Dockerfile handle build
+    startCommand: ""    # Dockerfile CMD runs server
     build:
       context: backend
       dockerfilePath: backend/Dockerfile
